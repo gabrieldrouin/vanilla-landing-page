@@ -1,0 +1,164 @@
+/* this is some magical font-importing.  
+you'll learn about it later. */
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+body {
+  margin: 0;
+  background:#ffffff;
+  font-family: roboto;
+  text-align: center;
+}
+
+div {
+    color: #000000;
+    
+}
+
+.box img {
+    width: 100px;
+    height: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background: #1F2937;
+  align-items: center;
+  gap: 16px;
+}
+
+.fold {
+    padding: 0;
+    margin: 0;
+    background: #1F2937;
+}
+
+.fold-left {
+    color: #ffffff;
+}
+
+.profile-image {
+  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 900;
+  color: #ffffff
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  background-color: #3882F6;
+  padding: 8px 24px;
+}
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* cards */
+
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.title {
+    margin-bottom: 32px;
+}
+  
+.plants {
+display: flex;
+justify-content: center;
+gap: 52px;
+}
+
+.box {
+max-width: 200px;
+}
+
+/* cards */
+
+/* overall */
+
+.small-padding {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.big-padding {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.block-padding {
+    padding: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.fold-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
+
+.fold-modal {
+    background: white;
+    width: 480px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+  }
+
+.fold-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+  
+.fold-image img {
+
+    gap: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.fold-image {
+    background-color: grey;
+    margin: 0 250px;
+}
+
+  .text {
+    margin-bottom: 16px;
+  }
+  
