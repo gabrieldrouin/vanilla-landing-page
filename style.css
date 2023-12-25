@@ -57,13 +57,14 @@ a {
   padding: 0;
   margin: 0;
   background: #1F2937;
-
 }
 
 .fold .left {
   flex: auto;
   width: 0;
   margin-right: 50px;
+  display: flex;
+  align-items: center;
 }
 
 h1 {
@@ -82,6 +83,7 @@ h1 {
   align-items: center;
   padding-left: 50px;
   padding-right: 50px;
+  aspect-ratio: 2/1;
 }
 
 .left .text {
