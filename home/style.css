@@ -6,95 +6,213 @@ body {
   margin: 0;
   background:#ffffff;
   font-family: roboto;
-  text-align: center;
 }
 
 div {
-    color: #000000;
-    
+    color: #1f2937;
 }
 
-.box img {
-    width: 100px;
-    height: 100px;
+.main-color {
+  background: #1F2937;
 }
+
+.grey-color {
+  background: #e5e7eb;
+}
+
+/* header section */
 
 .header {
   display: flex;
   justify-content: space-between;
   padding: 16px;
-  background: #1F2937;
   align-items: center;
   gap: 16px;
-}
-
-.fold {
-    padding: 0;
-    margin: 0;
-    background: #1F2937;
-}
-
-.fold-left {
-    color: #ffffff;
-}
-
-.profile-image {
-  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
-  border-radius: 50%;
-  width: 48px;
-  height: 48px;
+  color: white;
 }
 
 .logo {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 900;
-  color: #ffffff
-}
-
-button {
-  border: none;
-  border-radius: 8px;
-  background-color: #3882F6;
-  padding: 8px 24px;
-}
-
-a {
-  /* this removes the line under our links */
-  text-decoration: none;
-  color: white;
+  color: #ffffff;
 }
 
 ul {
   list-style-type: none;
-}
-
-/* cards */
-
-
-ul {
   display: flex;
   margin: 0;
   padding: 0;
   gap: 16px;
 }
 
-.title {
-    margin-bottom: 32px;
+a {
+  text-decoration: none;
+  color: #e5e7eb;
 }
-  
-.plants {
-display: flex;
-justify-content: center;
-gap: 52px;
+
+/* fold section */
+
+.fold {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  background: #1F2937;
+
+}
+
+.fold .left {
+  flex: auto;
+  width: 0;
+  margin-right: 50px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin: 0;
+}
+
+.fold .right {
+  display: flex;
+  flex: auto;
+  width: 0;
+  background-color: #6D747D;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.left .text {
+  margin-bottom: 16px;
+  color: #e5e7eb;
+}
+
+.right .text {
+  color: white;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  background-color: #3882F6;
+  padding: 8px 28px;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* cards section */
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+    margin: 0;
+    border-width: 100px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.box .text {
+  margin-top: 5px;
+}
+
+.box .img-placeholder {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3882F6;
+  border-radius: 12px;
+
 }
 
 .box {
-max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 150px;
 }
 
-/* cards */
 
-/* overall */
+.boxes {
+display: flex;
+justify-content: center;
+gap: 64px;
+
+}
+
+/* quote */
+
+.check {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.quote p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.quote .author {
+  text-align: right;
+  border-width: 100px;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+/* cta */
+
+.cta .container {
+  display: flex;
+  background: #3882f6;
+  justify-content: space-between;
+  text-align: left;
+  color: white;
+  border-radius: 12px;
+  align-items: center;
+}
+
+.left .title {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-bottom: 2px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.container .left .text {
+  margin: 0;
+}
+
+.right button {
+  border: 2px solid #ffffff; 
+  font-weight: 600;
+  display: flex;
+  
+}
+
+/* footer */
+
+.footer .text {
+  color: white;
+  text-align: center;
+}
+
+/* paddings */
 
 .small-padding {
     padding-left: 200px;
@@ -102,63 +220,21 @@ max-width: 200px;
 }
 
 .big-padding {
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 260px;
+    padding-right: 260px;
 }
 
 .block-padding {
     padding: 50px;
 }
 
-
-
-
-
-
-
-
-
-
-
-.fold-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-  }
-
-.fold-modal {
-    background: white;
-    width: 480px;
-    border-radius: 10px;
-    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-    display: flex;
-    gap: 16px;
-    padding: 16px;
-  }
-
-.fold-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 8px;
-}
-  
-.fold-image img {
-
-    gap: 50px;
-    width: 200px;
-    height: 200px;
+.footer-padding {
+  padding: 20px;
 }
 
-.fold-image {
-    background-color: grey;
-    margin: 0 250px;
+.inner-padding {
+  padding: 40px 100px;
 }
 
-  .text {
-    margin-bottom: 16px;
-  }
-  
+
+
