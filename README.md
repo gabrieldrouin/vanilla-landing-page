@@ -4,7 +4,7 @@ This repository contains the index.html and style.css files for the Odin Project
 
 The purpose of the exercice is to recreate a landing page from an image of the expected result. The expected colors and fonts to use were also given as part of the exercice.
 
-The page was built based on a viewport width of 1312px. As such, the flexboxes do not change in height based on the viewport's width, which can lead to some janky results when viewed on bigger or smaller resolutions.
+The page was built based on a viewport width of 1312px. As such, larger viewports can lead to some janky results due to the flexboxes.
 
 View here: https://gabrieldrouin.github.io/vanilla-landing-page/
 
