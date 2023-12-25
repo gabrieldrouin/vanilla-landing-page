@@ -6,6 +6,8 @@ The purpose of the exercice is to recreate a landing page from an image of the e
 
 The page was built based on a viewport width of 1312px. As such, the flexboxes do not change in height based on the viewport's width, which can lead to some janky results when viewed on bigger or smaller resolutions.
 
+View here: https://gabrieldrouin.github.io/vanilla-landing-page/
+
 ## Original image
 
 ![original](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png)
