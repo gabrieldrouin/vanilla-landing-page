@@ -6,7 +6,7 @@ The purpose of the exercice is to recreate a landing page from an image of the e
 
 ## Original image
 
-![original](http://url/to/img.png)https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png)
+![original](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png)
 
 ## V1.0.0 Result
 
