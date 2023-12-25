@@ -215,13 +215,14 @@ gap: 64px;
 /* paddings */
 
 .small-padding {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 15vw;
+    padding-right: 15vw;
+
 }
 
 .big-padding {
-    padding-left: 260px;
-    padding-right: 260px;
+    padding-left: 18vw;
+    padding-right: 18vw;
 }
 
 .block-padding {
